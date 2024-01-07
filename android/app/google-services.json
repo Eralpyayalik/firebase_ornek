@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602530602464",
+    "project_id": "fir-odev-ce469",
+    "storage_bucket": "fir-odev-ce469.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602530602464:android:69846a7872523326af5f85",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoUu8Ff924lvEL-dvg4IgbhRsPrUOhvmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
