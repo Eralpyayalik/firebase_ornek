@@ -1,16 +1,15 @@
-# flutter_application_1
+# Flutter Firebase Örneği
 
-A new Flutter project.
+Flutter'da Firebase Authentication ve Firestore kullanımını gösteren küçük bir örnek. E-posta ve parola ile kayıt olunuyor, kullanıcı adı Firestore'daki `Users` koleksiyonuna yazılıyor. Giriş yaptıktan sonra hesap e-postası ana ekranda gösteriliyor.
 
-## Getting Started
+## Dosyalar
 
-This project is a starting point for a Flutter application.
+- `lib/screens/`: giriş, kayıt ve ana ekran.
+- `lib/services/auth_service.dart`: hesap oluşturma ve kullanıcı bilgisini kaydetme.
+- `lib/widgets/user_widget.dart`: oturum açmış kullanıcının bilgisini gösteren bileşen.
 
-A few resources to get you started if this is your first Flutter project:
+Kendi Firebase projenle denemek için Authentication'da e-posta/parola girişini açman, Firestore'u hazırlaman ve Firebase yapılandırmasını kendi projenle eşleştirmen gerekiyor.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Bu, eski bir deneme projesi. Mevcut `main.dart` ekranları doğrudan `lib/` altında arıyor; çalıştırmadan önce bu importları `lib/screens/` konumuna göre düzeltmek gerekiyor.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Bağımlılıklar `flutter pub get` ile kurulabilir.
